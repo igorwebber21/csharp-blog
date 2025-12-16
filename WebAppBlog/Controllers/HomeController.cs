@@ -26,6 +26,8 @@ namespace WebAppBlog.Controllers
         {
             // usersModel.age 
 
+            Console.WriteLine(usersModel.age);
+
             if (ModelState.IsValid)
             {
                 return RedirectToAction("Index");
